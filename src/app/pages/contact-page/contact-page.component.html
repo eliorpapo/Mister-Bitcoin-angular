@@ -1,0 +1,15 @@
+<section>
+  <app-contact-details
+    (onBack)="selectedContactId = null"
+    *ngIf="selectedContactId; else contactList"
+    [contactId]="selectedContactId"
+  ></app-contact-details>
+  <ng-template #contactList>
+    <app-contact-filter></app-contact-filter>
+    <app-contact-list
+      *ngIf="contacts$"
+      (onSelect)="selectedContactId = $event"
+      [contacts]="contacts$ | async"
+    ></app-contact-list>
+  </ng-template>
+</section>
