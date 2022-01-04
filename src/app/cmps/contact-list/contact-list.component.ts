@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Contact } from 'src/models/contact.model';
+import { Contact } from 'src/app/models/contact.model';
 
 @Component({
   selector: 'app-contact-list',

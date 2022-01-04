@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Contact } from 'src/models/contact.model';
-import { ContactService } from 'src/services/contact.service';
+import { Contact } from 'src/app/models/contact.model';
+import { ContactService } from 'src/app/services/contact.service';
 
 @Component({
   selector: 'app-contact-details',

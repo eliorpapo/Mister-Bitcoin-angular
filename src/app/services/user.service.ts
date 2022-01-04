@@ -1,4 +1,4 @@
-import { User } from 'src/models/user.model';
+import { User } from 'src/app/models/user.model';
 import { Injectable } from '@angular/core';
 
 var USER: User = { name: 'Ochoa Hyde', coins: 100, moves: [] };

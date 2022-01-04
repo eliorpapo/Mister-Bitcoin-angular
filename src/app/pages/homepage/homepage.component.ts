@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/models/user.model';
-import { userService } from 'src/services/user.service';
-import { bitcoinService } from 'src/services/bitcoin.service';
+import { User } from 'src/app/models/user.model';
+import { userService } from 'src/app/services/user.service';
+import { bitcoinService } from 'src/app/services/bitcoin.service';
 import { Observable } from 'rxjs';
 
 @Component({

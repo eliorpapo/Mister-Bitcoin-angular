@@ -126,7 +126,7 @@ const CONTACTS = [
 })
 export class ContactService {
   //mock the server
-  
+
   private _contactsDb: Contact[] = CONTACTS;
 
   private _contacts$ = new BehaviorSubject<Contact[]>([]);

@@ -1,4 +1,7 @@
 <section>
-  <!-- <app-homepage></app-homepage> -->
-  <app-contact-page></app-contact-page>
+  <section class="header">
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+    <a routerLink="contact" routerLinkActive="active">Contacts</a>
+  </section>
+  <router-outlet></router-outlet>  
 </section>
